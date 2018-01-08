@@ -20,7 +20,14 @@ class PluploadFullAsset extends AssetBundle
 	/**
 	 * @inherit
 	 */
-	public $sourcePath = '@vendor/moxiecode/plupload/js';
+	public $sourcePath = '@vendor/moxiecode/plupload';
+
+	/**
+	 * @inherit
+	 */
+	public $css = [
+		'jquery.ui.plupload/css/jquery.ui.plupload.css',
+	];
 
 	/**
 	 * @inherit
